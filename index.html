@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/f8c73be823.js" crossorigin="anonymous"></script>
     <!-- add tailwind -->
@@ -24,10 +25,46 @@
             }
         }
     </script>
+    <style>
+        .font-manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
 
 </head>
 
-<body>
+<body class="font-manrope">
+
+    <main class="max-w-screen-xl border-4 mx-auto px-16 lg:px-28">
+
+
+        <header class="md:flex md:justify-between mt-16">
+            <div>
+                <h1 class="text-7xl font-extrabold text-[#1C1C1C] mb-7">It's good <br>
+                    tea time at The <br> Tea House</h1>
+                <p class="text-lg font-medium text-[#777777] mb-7">Tea and Botanical Solutions Supplier Give Optimum
+                    Satisfaction To Your Taste Buds.</p>
+                <button
+                    class="text-xl font-bold text-[#FFFFFF] bg-gradient-to-r from-[#FF0000] to-[#FF8938] rounded-lg p-5 mb-7">
+                    Explore More
+                    <i class="fa-solid fa-arrow-down"></i></button>
+            </div>
+            <div>
+                <img src="images/banner.png" alt="">
+                <div class=" w-56 bg-[#FFFFFF] shadow-xl rounded-lg relative bottom-16 left-20 flex justify-around items-center  p-3 ">
+                    <div>
+                        <i class="fa-solid fa-star text-[#FFC850] text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-extrabold text-[#1C1C1C]">5.00</h3>
+                        <p class="font-semibold text-[#777777]">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+    </main>
 
 </body>
 
